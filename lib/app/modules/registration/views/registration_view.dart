@@ -417,7 +417,8 @@ class RegistrationView extends GetView<RegistrationController> {
                                     ])
                                   ]),
                             ),
-                          )
+                          ),
+                          SizedBox(height: height/50,)
                         ],
                       ),
                     ),

@@ -1,3 +1,4 @@
+import 'package:event_app/app/modules/notification/views/widgets/drawer_menu.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,7 @@ class NotificationView extends GetView<NotificationController> {
         title: const Text('Notification'),
         centerTitle: true,
       ),
+      drawer: const DrawerMenu(),
       body: Stack(
         alignment: Alignment.center,
         children: [

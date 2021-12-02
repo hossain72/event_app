@@ -28,7 +28,6 @@ class NotificationController extends GetxController {
 
   getUserToken() {
     token.value = localStorage.read('token');
-    print(token.value);
     update();
   }
 

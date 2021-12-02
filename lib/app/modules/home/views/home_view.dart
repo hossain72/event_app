@@ -289,7 +289,10 @@ class HomeView extends GetView<HomeController> {
                                     ])
                                   ]),
                             ),
-                          )
+                          ),
+                          SizedBox(
+                            height: height / 50,
+                          ),
                         ],
                       ),
                     ),
